@@ -18,3 +18,14 @@ a{
     color: dodgerblue;
     text-decoration: none;
 }
+
+.press{
+    transition: 100ms transform;
+}
+
+.press:active{
+    transform: scale(0.97);
+}
+.highlight {
+    color: slateblue;
+}

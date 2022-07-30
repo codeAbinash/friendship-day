@@ -1,20 +1,21 @@
 body {
     min-height: 100vh;
+    color: #333;
 }
-.main{
+
+.main {
     padding: 10px;
     width: 100%;
 }
+
 .main .friendsMain {
-    width: 70vmin;
+    width: 90vmin;
     display: block;
     margin: auto;
-    border-radius: 50%;
+
     margin-top: 30px;
     height: auto;
 }
-
-
 
 .main h2 {
     text-align: center;
@@ -24,49 +25,89 @@ body {
 
 .main .quote {
     background-color: antiquewhite;
-    padding: 10px 10px;
+    padding: 20px;
     margin: 10px;
     border-radius: 10px;
     margin-top: 30px;
     margin-bottom: 20px;
+    box-shadow: 0 0 10px 10px antiquewhite;   
 }
 
-.main .quote p{
+.main .quote p {
     font-family: 'Edu VIC WA NT Beginner', cursive;
     /* font-size: 0.9em; */
-    text-align: center;   
-}
-
-.highlight {
-    color:#9900ff ;
+    text-align: center;
 }
 
 
-.main .image{
+
+.main .image {
     width: 100%;
     height: auto;
     margin-block: 20px;
 }
-.main .image img{
+
+.main .image img {
     width: 90vmin;
     display: block;
     margin: auto;
     border-radius: 10px;
     transition: 0.1s linear transform;
 }
-.main .image img:active{
+
+.main .image img:active {
     transform: scale(0.99);
 }
 
 .main .wish {
-    padding: 10px;
+    padding: 20px;
+    color: black;
     margin: 10px;
-    background-color: antiquewhite;
     border-radius: 10px;
-    
+    background: #7F00FF;
+    background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+}
+.main .wish p{
+    margin-bottom: 10px;
+}
+.main .wish input[type=text]{
+    width: 100%;
+    background-color: #ffffff55;
+    color: black;
+    padding: 13px 15px;
+    border: none;
+    outline: none;
+    margin-block: 5px;
+    border-radius: 7px;
+}
+.main .wish input[type=url]{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #9900ff;
+}
+
+.main .wish input::placeholder{
+    color: #555;
+}
+.main .wish .buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.main .wish .buttons button{
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 13px 10px;
+    border-radius: 10px;
+    margin:10px 0 0 0;
 }
 
 
-.main .endDiv p{
+.main .endDiv p {
     margin-top: 30px;
 }
