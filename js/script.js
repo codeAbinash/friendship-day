@@ -43,8 +43,8 @@ const addressDOM = document.querySelector('.main .wish input[type=url]')
 
 
 function createLink() {
-    const fName = document.getElementById('fName').value || " "
-    const sName = document.getElementById('sName').value || "Your Friend"
+    const fName = document.getElementById('fName').value.trim()
+    const sName = document.getElementById('sName').value.trim() || "Your Friend"
     myParams.set('n', sName)
     myParams.set('f', fName)
     myUrl.search = myParams.toString()
