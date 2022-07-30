@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    box-sizing: border-box;
+}
+
+.text-center{
+    text-align: center;
+    margin-block: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+a{
+    color: dodgerblue;
+    text-decoration: none;
+}

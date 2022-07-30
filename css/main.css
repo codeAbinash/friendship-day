@@ -1,0 +1,72 @@
+body {
+    min-height: 100vh;
+}
+.main{
+    padding: 10px;
+    width: 100%;
+}
+.main .friendsMain {
+    width: 70vmin;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 30px;
+    height: auto;
+}
+
+
+
+.main h2 {
+    text-align: center;
+    margin-top: 20px;
+    /* color: white; */
+}
+
+.main .quote {
+    background-color: antiquewhite;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.main .quote p{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    /* font-size: 0.9em; */
+    text-align: center;   
+}
+
+.highlight {
+    color:#9900ff ;
+}
+
+
+.main .image{
+    width: 100%;
+    height: auto;
+    margin-block: 20px;
+}
+.main .image img{
+    width: 90vmin;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    transition: 0.1s linear transform;
+}
+.main .image img:active{
+    transform: scale(0.99);
+}
+
+.main .wish {
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    
+}
+
+
+.main .endDiv p{
+    margin-top: 30px;
+}
