@@ -49,7 +49,6 @@ function createLink() {
     myParams.set('f', fName)
     myUrl.search = myParams.toString()
     addressDOM.value = myUrl
-    console.log(myUrl.href)
 }
 
 function copy() {
